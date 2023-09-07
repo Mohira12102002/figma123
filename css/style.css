@@ -196,7 +196,7 @@ header .icons a:last-child {
     padding-top: 24px;
     background-image: url(../images/image\ 2.png);
     background-repeat: no-repeat;
-    background-size: 80%;
+    background-size: 100%;
     background-position-x: right;
     background-position-y: bottom;
   }
@@ -234,7 +234,7 @@ header .icons a:last-child {
     height: 15px;
   }
   header .home {
-    margin-left: 60px;
+    margin-left: 0px;
     margin-bottom: 180px;
   }
   header .home .title {
@@ -245,6 +245,7 @@ header .icons a:last-child {
     font-weight: 500;
     line-height: normal;
     margin-bottom: 20px;
+    text-align: center;
   }
   header .home .subtitle {
     color: #000;
@@ -254,7 +255,8 @@ header .icons a:last-child {
     font-weight: 400;
     line-height: normal;
     margin-bottom: 50px;
-    max-width: 350px;
+    max-width: 380px;
+    text-align: center;
   }
   header .home .more {
     display: flex;
@@ -264,6 +266,7 @@ header .icons a:last-child {
     width: 100px;
     padding: 5px;
     border-radius: 15px;
+    text-align: center;
   }
   header .home .more:hover {
     background-color: green;
