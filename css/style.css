@@ -1,0 +1,410 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  max-width: 1350px;
+  margin: 0 auto;
+}
+
+header {
+  padding-top: 38px;
+  background-image: url(../images/image\ 2.png);
+  background-repeat: no-repeat;
+  background-size: 80%;
+  background-position-x: right;
+  background-position-y: bottom;
+}
+header nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 187px;
+}
+header nav .left {
+  display: flex;
+  align-items: center;
+}
+header nav .left img {
+  margin-right: 74px;
+}
+header nav .left a {
+  display: block;
+  text-decoration: none;
+  margin-right: 40px;
+  color: #000;
+  font-family: "Roboto";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+header nav .left a:last-child {
+  margin-right: 0;
+}
+header .home {
+  margin-left: 98px;
+}
+header .home .title {
+  color: #000;
+  font-family: "Roboto";
+  font-size: 100px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  margin-bottom: 37px;
+}
+header .home .subtitle {
+  color: #000;
+  font-family: "Roboto";
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  margin-bottom: 37px;
+  width: 640px;
+}
+header .home .more {
+  display: flex;
+  align-items: center;
+  margin-bottom: 95px;
+}
+header .home .more p {
+  color: #000;
+  font-family: "Roboto";
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  margin-right: 16px;
+}
+header .icons a {
+  display: block;
+  margin-bottom: 14px;
+}
+header .icons a:last-child {
+  margin-bottom: 25px;
+}
+
+@media only screen and (max-width: 1024px) {
+  * {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  }
+  .container {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  header {
+    padding-top: 30px;
+    background-image: url(../images/image\ 2.png);
+    background-repeat: no-repeat;
+    background-size: 80%;
+    background-position-x: right;
+    background-position-y: bottom;
+  }
+  header nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 90px;
+  }
+  header nav .left {
+    display: flex;
+    align-items: center;
+  }
+  header nav .left img {
+    margin-right: 50px;
+  }
+  header nav .left a {
+    text-decoration: none;
+    margin-right: 30px;
+    color: #000;
+    font-family: "Roboto";
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+  }
+  header nav .left a:last-child {
+    margin-right: 0;
+  }
+  header .home {
+    margin-left: 60px;
+  }
+  header .home .title {
+    color: #000;
+    font-family: "Roboto";
+    font-size: 100px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    margin-bottom: 28px;
+  }
+  header .home .subtitle {
+    color: #000;
+    font-family: "Roboto";
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-bottom: 28px;
+    width: 520px;
+  }
+  header .home .more {
+    display: flex;
+    align-items: center;
+    margin-bottom: 75px;
+  }
+  header .home .more p {
+    color: #000;
+    font-family: "Roboto";
+    font-size: 10px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-right: 13px;
+  }
+  header .home .more img {
+    width: 50px;
+    height: 30px;
+  }
+  header .icons a {
+    display: block;
+    margin-bottom: 10px;
+  }
+  header .icons a:last-child {
+    margin-bottom: 0px;
+  }
+}
+@media only screen and (max-width: 768px) {
+  * {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  }
+  .container {
+    max-width: 700px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  header {
+    padding-top: 24px;
+    background-image: url(../images/image\ 2.png);
+    background-repeat: no-repeat;
+    background-size: 80%;
+    background-position-x: right;
+    background-position-y: bottom;
+  }
+  header nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 66px;
+  }
+  header nav .left {
+    display: flex;
+    align-items: center;
+  }
+  header nav .left img {
+    width: 13px;
+    height: 17px;
+    margin-right: 50px;
+  }
+  header nav .left a {
+    display: none;
+    text-decoration: none;
+    margin-right: 27px;
+    color: #000;
+    font-family: "Roboto";
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+  }
+  header nav .left a:last-child {
+    margin-right: 0;
+  }
+  header nav .right img {
+    width: 15px;
+    height: 15px;
+  }
+  header .home {
+    margin-left: 60px;
+    margin-bottom: 180px;
+  }
+  header .home .title {
+    color: #000;
+    font-family: "Roboto";
+    font-size: 55px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    margin-bottom: 20px;
+  }
+  header .home .subtitle {
+    color: #000;
+    font-family: "Roboto";
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-bottom: 50px;
+    max-width: 350px;
+  }
+  header .home .more {
+    display: flex;
+    align-items: center;
+    margin-bottom: 50px;
+    border: 2px solid blue;
+    width: 100px;
+    padding: 5px;
+    border-radius: 15px;
+  }
+  header .home .more:hover {
+    background-color: green;
+    border: none;
+  }
+  header .home .more:hover p {
+    color: white;
+  }
+  header .home .more p {
+    color: #000;
+    font-family: "Roboto";
+    font-size: 10px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-right: 12px;
+  }
+  header .home .more img {
+    width: 50px;
+    height: 30px;
+  }
+  header .icons a {
+    display: inline-block;
+    margin-right: 6px;
+  }
+  header .icons a:last-child {
+    margin-bottom: 15px;
+  }
+  header .icons a img {
+    width: 15px;
+    height: 15px;
+  }
+}
+@media only screen and (max-width: 320px) {
+  * {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  }
+  .container {
+    max-width: 300px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  header {
+    background-image: url(../images/image\ 2.png);
+    background-repeat: no-repeat;
+    background-size: 50%;
+    background-position-x: right;
+    background-position-y: bottom;
+  }
+  header nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 33px;
+  }
+  header nav .left {
+    display: flex;
+    align-items: center;
+  }
+  header nav .left img {
+    width: 7px;
+    height: 9px;
+    margin-right: 25px;
+  }
+  header nav .left a {
+    display: none;
+    text-decoration: none;
+    margin-right: 14px;
+    color: #000;
+    font-family: "Roboto";
+    font-size: 6px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+  }
+  header nav .left a:last-child {
+    margin-right: 0;
+  }
+  header nav .right img {
+    width: 8px;
+    height: 8px;
+  }
+  header .home {
+    margin-left: 0px;
+    text-align: center;
+  }
+  header .home .title {
+    color: #000;
+    font-family: "Roboto";
+    font-size: 45px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    margin-bottom: 10px;
+  }
+  header .home .subtitle {
+    color: #000;
+    font-family: "Roboto";
+    font-size: 7px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-bottom: 20px;
+    width: 230px;
+  }
+  header .home .more {
+    display: flex;
+    align-items: center;
+    margin-bottom: 30px;
+    border: 2px solid blue;
+    width: 50px;
+    padding: 5px;
+    border-radius: 5px;
+  }
+  header .home .more:hover {
+    background-color: yellow;
+  }
+  header .home .more p {
+    color: #000;
+    font-family: "Roboto";
+    font-size: 7px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-right: 6px;
+  }
+  header .home .more img {
+    width: 18px;
+    height: 15px;
+  }
+  header .icons a {
+    display: inline-block;
+    margin-right: 3px;
+  }
+  header .icons a:last-child {
+    margin-bottom: 8px;
+  }
+  header .icons a img {
+    width: 8px;
+    height: 8px;
+  }
+}/*# sourceMappingURL=style.css.map */
